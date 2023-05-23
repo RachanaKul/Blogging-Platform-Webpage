@@ -1,0 +1,61 @@
+.container{
+        background-image: url('frontie.jpg');
+        background-size: cover;
+        background-position: center bottom;
+        height: 650px;
+        margin-bottom: 0px;
+}
+
+.text {
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    font-size: 50px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.paragraph {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    font-size: 25px;
+
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(43, 2, 50);
+    font-size: 5em;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.container form {
+    margin-top: 20px;
+    /*background-image: url('pic1.jpg');*/
+
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container form input[type="text"],
+.container form input[type="password"],
+.container form textarea {
+    width: 100%;
+    color: rgb(43, 2, 50);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container form button {
+    padding: 10px 20px;
+}
